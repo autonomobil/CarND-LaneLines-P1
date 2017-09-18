@@ -58,7 +58,7 @@ My pipeline consisted of 9 steps.
 ![image9]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential shortcomings with the current pipeline
 
 
 Shortcomings:
@@ -67,8 +67,9 @@ Shortcomings:
     - in the challenge video the shadow and the light colored bridge are very difficult, accuracy is not very high
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements to the pipeline
 
 Improvements:
     - instead of plotting a straight line, you can polyfit to the data points and make curves more accurate
+    - Don't grayscale and blur a second time to save computing time
     
