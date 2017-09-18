@@ -45,13 +45,13 @@ My pipeline consisted of 9 steps.
 * Apply region mask
 ![image7]
 
-* Determine all lines with Hough Transformation, then calculate slope, y0 and length of every line.
+* First Determine all lines with Hough Transformation, then calculate slope, y0 and length of every line.
     * Then classify them into left and right, according to the slope (positive or negative).
-    * At the same time check against min and max slope, if not in this range, ignore.
+    * At the same time check against min and max slope, if not in this range, ignore line.
     * After this, calculate average slope and y0 with weighting in the length, to make longer lines more dominant.
     * Then calculate the slope and y0 with moving average over variable number of frames (I chose 5 frames) to smooth.
-    * tore this information (slope, yo) in array for next frame for calculating moving average or if no lines are detected.
-    ** Calculate the four points for the two lines (1 right, 1 left), format the output in the way, that different coloring is possible
+    * Store this information (slope, yo) in array for next frame for calculating moving average or if no lines are detected.
+    * Calculate the four points for the two lines (1 right, 1 left), format the output in the way, that different coloring is possible
 ![image8]
 
  * Draw the two lines on original image, choose red for not detected and green for detected line   
