@@ -25,37 +25,37 @@
 My pipeline consisted of 9 steps. 
 * First Blur, this is especially important for the challenge video (the part with shadows).
     Also for getting ride of noise, before enhancing contrast
-[image1]
+![image1]
 
 * Minor Contrast increase for better detection if lighting is bad
 ![image2]
 
 * Boost Yellow and White by converting to HSV and applying mask. Then combine with the incoming image
-![3][image3]
+![image3]
 
 * Grayscale the image (not necessarily necessary)
-![4][image4]
+![image4]
 
 * Second Blur, getting rid of noise (not necessarily necessary)
-![5][image5]
+![image5]
 
 * Canny Edge Detection
-![6][image6]
+![image6]
 
 * Apply region mask
-![7][image7]
+![image7]
 
 * Determine all lines with Hough Transformation, then calculate slope, y0 and length of every line.
-    Then classify them into left and right, according to the slope (positive or negative).
-    At the same time check against min and max slope, if not in this range, ignore.
-    After this, calculate average slope and y0 with weighting in the length, to make longer lines more dominant.
-    Then calculate the slope and y0 with moving average over variable number of frames (I chose 5 frames) to smooth.
-    Store this information (slope, yo) in array for next frame for calculating moving average or if no lines are detected.
-    Calculate the four points for the two lines (1 right, 1 left), format the output in the way, that different coloring is possible
-![8][image8]
+    -Then classify them into left and right, according to the slope (positive or negative).
+    -At the same time check against min and max slope, if not in this range, ignore.
+    -After this, calculate average slope and y0 with weighting in the length, to make longer lines more dominant.
+    -Then calculate the slope and y0 with moving average over variable number of frames (I chose 5 frames) to smooth.
+    -tore this information (slope, yo) in array for next frame for calculating moving average or if no lines are detected.
+    -Calculate the four points for the two lines (1 right, 1 left), format the output in the way, that different coloring is possible
+![image8]
 
  * Draw the two lines on original image, choose red for not detected and green for detected line   
-![9][image9]
+![image9]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
