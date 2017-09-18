@@ -20,7 +20,7 @@
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Description of the pipeline.
 
 My pipeline consisted of 9 steps. 
 * First Blur, this is especially important for the challenge video (the part with shadows).
