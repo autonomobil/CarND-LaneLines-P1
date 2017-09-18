@@ -72,4 +72,7 @@ Shortcomings:
 Improvements:
     - instead of plotting a straight line, you can polyfit to the data points and make curves more accurate
     - Don't grayscale and blur a second time to save computing time
+    - the challenge video was difficult:
+    ![video9]
     
+    [video9]: ./test_videos_output/challenge.mp4 "Challenge"
