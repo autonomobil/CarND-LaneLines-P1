@@ -6,15 +6,15 @@
 
 [//]: # (Image References)
 
-[image1]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/1_blur1.jpg "First Blur"
-[image2]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/2_contrast.jpg "Contrast Increase"
-[image3]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/3_yellow_white_mask.jpg "Boost Yellow and White with mask"
-[image4]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/4_grayscale.jpg "Grayscale Blur"
-[image5]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/5_blur2.jpg "Second Blur"
-[image6]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/6_canny.jpg "Canny Edge Detection"
-[image7]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/7_region_mask.jpg "Region Mask"
-[image8]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/8_lines.jpg "All Lines and average Line"
-[image9]: https://github.com/autonomobil/CarND-LaneLines-P1-/blob/master/MD_images/9_result.jpg "Result"
+[image1]: ./MD_images/1_blur1.png "First Blur"
+[image2]: ./MD_images/2_contrast.png "Contrast Increase"
+[image3]: ./MD_images/3_yellow_white_mask.png "Boost Yellow and White with mask"
+[image4]: ./MD_images/4_grayscale.png "Grayscale Blur"
+[image5]: ./MD_images/5_blur2.png "Second Blur"
+[image6]: ./MD_images/6_canny.png "Canny Edge Detection"
+[image7]: ./MD_images/7_region_mask.png "Region Mask"
+[image8]: ./MD_images/8_lines.png "All Lines and average Line"
+[image9]: ./MD_images/9_result.png "Result"
 
 ---
 
