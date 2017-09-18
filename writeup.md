@@ -25,9 +25,9 @@
 My pipeline consisted of 9 steps. 
 * First Blur, this is especially important for the challenge video (the part with shadows).
     Also for getting ride of noise, before enhancing contrast
-![1][image1]
+[image1]
 * Minor Contrast increase for better detection if lighting is bad
-![2][image2]
+![image2]
 * Boost Yellow and White by converting to HSV and applying mask. Then combine with the incoming image
 ![3][image3]
 * Grayscale the image (not necessarily necessary)
