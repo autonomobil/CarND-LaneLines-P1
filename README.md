@@ -20,9 +20,9 @@
 
 ### Reflection
 Results:
-[solidWhiteRight - Youtube Link](https://www.youtube.com/watch?v=ZBBuqd8Gxjk&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU)
-[solidYellowLeft - Youtube Link](https://www.youtube.com/watch?v=oE11-MPvHdY&index=2&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU)
-[challenge - Youtube Link](https://www.youtube.com/watch?v=SZEhOOdH60o&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU&index=3)
+* [solidWhiteRight - Youtube Link](https://www.youtube.com/watch?v=ZBBuqd8Gxjk&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU)
+* [solidYellowLeft - Youtube Link](https://www.youtube.com/watch?v=oE11-MPvHdY&index=2&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU)
+* [challenge - Youtube Link](https://www.youtube.com/watch?v=SZEhOOdH60o&list=PLT4_vNeVR74lCL9pbwh6b1csRqTj63MfU&index=3)
 
 ### 1. Description of the pipeline.
 
